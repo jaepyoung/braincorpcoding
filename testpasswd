@@ -1,0 +1,7 @@
+root:x:0:0:root:/root:/bin/bash
+nobody:x:65534:65534:nobody:/nonexistent:/usr/sbin/nologin
+systemd-bus-proxy:x:103:106:systemd Bus Proxy,,,:/run/systemd:/bin/false
+ntp:x:104:109::/home/ntp:/bin/false
+statd:x:105:65534::/var/lib/nfs:/bin/false
+sshd:x:106:65534::/var/run/sshd:/usr/sbin/nologin
+admin:x:1000:1000:Debian:/home/admin:/bin/bash
